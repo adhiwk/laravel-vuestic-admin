@@ -15,13 +15,26 @@
 </p>
 
 ## About Scratch
-Setup
+Installation
+First clone this repository, install the dependencies, and setup your .env file.
+
+git clone https://github.com/adhiwk/laravel-vuestic-admin.git <your project>
 ----------------------
 - composer install
 - npm install
+- cp .env.example .env
+- php artisan key:generate
 
-Runing
+And setting up your .env file
+
+Runing dev
 -----------------------
-- artisan serve
+- php artisan serve
 - npm run dev
+
+Build
+-----------------------
+- npm run build
+
+For laravel just point <your app>/public  to document root your web server.
 
