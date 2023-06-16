@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<p align="center"><a href="https://https://vuejs.org" target="_blank"><img src="https://avatars.githubusercontent.com/u/6128107" width="400" alt="VueJs Logo"></a></p>
+<p align="center"><a href="https://https://vuejs.org" target="_blank"><img src="https://avatars.githubusercontent.com/u/6128107" width="300" height="300" alt="VueJs Logo"></a></p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/vue"><img src="https://camo.githubusercontent.com/72bf57dfe6d4658e21dc36b0c1c2247edd7f0c81d0fd6513a72e419be917e9d5/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f7675652e737667" alt="Build Status"></a>
