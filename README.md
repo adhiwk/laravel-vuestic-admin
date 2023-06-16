@@ -33,8 +33,8 @@ And setting up your .env file
 -   php artisan serve
 -   npm run dev
 
-## Build
+## Production
 
--   npm run build
+-   npm run build:ci
 
 For laravel just point appname/public to document root your web server.
