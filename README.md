@@ -17,11 +17,11 @@
 ## About Scratch
 Setup
 ----------------------
-composer install
-npm install
+- composer install
+- npm install
 
 Runing
 -----------------------
-artisan serve
-npm run dev
+- artisan serve
+- npm run dev
 
