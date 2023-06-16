@@ -18,7 +18,7 @@
 Installation
 First clone this repository, install the dependencies, and setup your .env file.
 
-git clone https://github.com/adhiwk/laravel-vuestic-admin.git <your project>
+git clone https://github.com/adhiwk/laravel-vuestic-admin.git appname
 ----------------------
 - composer install
 - npm install
@@ -36,5 +36,5 @@ Build
 -----------------------
 - npm run build
 
-For laravel just point <your app>/public  to document root your web server.
+For laravel just point appname/public  to document root your web server.
 
