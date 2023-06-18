@@ -3,10 +3,13 @@
     font-style: normal;
     font-weight: normal;
     src: url("/resources/js/scss/icon-fonts/entypo/entypo.eot");
-    src: url("/resources/js/scss/icon-fonts/entypo/entypo.eot?#iefix") format("eot"),
+    src: url("/resources/js/scss/icon-fonts/entypo/entypo.eot?#iefix")
+            format("eot"),
         url("/resources/js/scss/icon-fonts/entypo/entypo.woff") format("woff"),
-        url("/resources/js/scss/icon-fonts/entypo/entypo.ttf") format("truetype"),
-        url("/resources/js/scss/icon-fonts/entypo/entypo.svg#entypo") format("svg");
+        url("/resources/js/scss/icon-fonts/entypo/entypo.ttf")
+            format("truetype"),
+        url("/resources/js/scss/icon-fonts/entypo/entypo.svg#entypo")
+            format("svg");
 }
 
 [class*="entypo-"]::before {
