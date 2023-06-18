@@ -14,6 +14,44 @@
 <a href="https://vuejs.org/guide/introduction.html"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Get Started"></a>
 </p>
 
+<p align="center">
+  <a href="https://vuestic.dev" target="_blank">
+      <img alt="Vuestic UI Logo" width="400" src="https://user-images.githubusercontent.com/29167241/208700497-c356a0eb-338f-46cc-a2ca-4a892df7e446.png">
+  </a>
+      <br>
+  Vue.js 3.0 UI Library
+  <br>
+  Developed by <a href="https://epicmax.co">Epicmax</a>. Designed by
+  <a href="https://twitter.com/xxsavitski">Vasili Savitski</a>.
+  <br>
+</p>
+
+<p align="center">
+  <a href="https://github.com/epicmaxco/vuestic-ui/tree/develop/packages/extensions/ag-grid-theme">
+    <img src="https://img.shields.io/npm/v/@vuestic/ag-grid-theme?label=ag-grid-theme">
+  </a>
+  <a href="https://github.com/epicmaxco/vuestic-ui/tree/develop/packages/vue-cli-plugin">
+    <img src="https://img.shields.io/npm/v/vue-cli-plugin-vuestic-ui?label=vue-cli-plugin">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://app.circleci.com/pipelines/github/epicmaxco/vuestic-ui">
+    <img src="https://img.shields.io/circleci/build/github/epicmaxco/vuestic-ui/develop" alt="CI badge">
+  </a>
+  <a href="https://github.com/epicmaxco/vuestic-ui/blob/develop/LICENSE.MD">
+    <img src="https://img.shields.io/npm/l/vuestic-ui.svg" alt="License">
+  </a>
+  <a href="https://www.npmjs.com/package/vuestic-ui">
+    <img src="https://img.shields.io/github/package-json/v/epicmaxco/vuestic-ui?filename=packages%2Fui%2Fpackage.json" alt="Version">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://vuestic.dev/">Documentation</a>
+  |
+  <a href="https://discord.gg/u7fQdqQt8c">Discord</a>
+</p>
 ## About Scratch
 
 Installation
