@@ -223,9 +223,7 @@ const routes: Array<RouteRecordRaw> = [
                 name: "recover-password",
                 path: "recover-password",
                 component: () =>
-                    import(
-                        "@/pages/auth/recover-password/RecoverPassword.vue"
-                    ),
+                    import("@/pages/auth/recover-password/RecoverPassword.vue"),
             },
             {
                 path: "",
