@@ -36,10 +36,10 @@ import { computed, onBeforeUnmount, onMounted, ref } from "vue";
 import { storeToRefs } from "pinia";
 import { onBeforeRouteUpdate } from "vue-router";
 
-import { useGlobalStore } from "../stores/global-store";
+import { useGlobalStore } from "@/stores/global-store";
 
-import Navbar from "../components/navbar/Navbar.vue";
-import Sidebar from "../components/sidebar/Sidebar.vue";
+import Navbar from "@/components/navbar/Navbar.vue";
+import Sidebar from "@/components/sidebar/Sidebar.vue";
 
 const GlobalStore = useGlobalStore();
 
