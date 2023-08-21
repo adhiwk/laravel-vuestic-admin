@@ -1,8 +1,8 @@
-import path from 'path'
+import path from "path";
 import { defineConfig } from "vite";
 import laravel from "laravel-vite-plugin";
 import vue from "@vitejs/plugin-vue";
-import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
+import VueI18nPlugin from "@intlify/unplugin-vue-i18n/vite";
 
 export default defineConfig({
     plugins: [
@@ -29,8 +29,10 @@ export default defineConfig({
             },
         }),
         VueI18nPlugin({
-            include: [path.resolve(__dirname, './resources/js/i18n/locales/**')],
-          }),
+            include: [
+                path.resolve(__dirname, "./resources/js/i18n/locales/**"),
+            ],
+        }),
     ],
     resolve: {
         alias: {
