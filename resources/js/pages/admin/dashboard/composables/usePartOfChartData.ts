@@ -1,5 +1,5 @@
 import { computed, ref, ComputedRef } from "@vue/reactivity";
-import { TChartData } from "../../../../data/types";
+import { TChartData } from "@/data/types";
 
 export function usePartOfChartData<T extends TChartData>(data: ComputedRef<T>) {
     const datasetIndex = ref(0);

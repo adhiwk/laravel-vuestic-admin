@@ -58,8 +58,8 @@
 import { computed, reactive, ref, watch } from "vue";
 import { useColors } from "vuestic-ui";
 import { useI18n } from "vue-i18n";
-import { lineMapData } from "../../../../data/maps/lineMapData";
-import CountriesList from "../../../../data/CountriesList";
+import { lineMapData } from "@/data/maps/lineMapData";
+import CountriesList from "@/data/CountriesList";
 
 const { colors } = useColors();
 const { t } = useI18n();

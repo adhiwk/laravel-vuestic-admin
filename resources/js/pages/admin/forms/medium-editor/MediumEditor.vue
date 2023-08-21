@@ -47,7 +47,7 @@
 import { nextTick } from "vue";
 import { useI18n } from "vue-i18n";
 import type MediumEditor from "medium-editor";
-import VaMediumEditor from "../../../../components/va-medium-editor/VaMediumEditor.vue";
+import VaMediumEditor from "@/components/va-medium-editor/VaMediumEditor.vue";
 
 const { t } = useI18n();
 

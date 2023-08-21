@@ -4,7 +4,7 @@ import AuthLayout from "@/layouts/AuthLayout.vue";
 import AppLayout from "@/layouts/AppLayout.vue";
 import Page404Layout from "@/layouts/Page404Layout.vue";
 
-import RouteViewComponent from "../layouts/RouterBypass.vue";
+import RouteViewComponent from "@/layouts/RouterBypass.vue";
 import UIRoute from "@/pages/admin/ui/route";
 
 const routes: Array<RouteRecordRaw> = [
@@ -76,7 +76,7 @@ const routes: Array<RouteRecordRaw> = [
                         path: "medium-editor",
                         component: () =>
                             import(
-                                "../pages/admin/forms/medium-editor/MediumEditor.vue"
+                                "@/pages/admin/forms/medium-editor/MediumEditor.vue"
                             ),
                         meta: {
                             wikiLink:

@@ -61,10 +61,10 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
-import { doughnutChartData, lineChartData } from "../../../data/charts";
-import { useChartData } from "../../../data/charts/composables/useChartData";
+import { doughnutChartData, lineChartData } from "@/data/charts";
+import { useChartData } from "@/data/charts/composables/useChartData";
 import { usePartOfChartData } from "./composables/usePartOfChartData";
-import VaChart from "../../../components/va-charts/VaChart.vue";
+import VaChart from "@/components/va-charts/VaChart.vue";
 import DashboardContributorsChart from "./DashboardContributorsList.vue";
 
 const { t } = useI18n();
